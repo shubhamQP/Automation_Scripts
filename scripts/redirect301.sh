@@ -25,9 +25,13 @@ echo "location ~* /$redirect {
         rewrite ^/$redirect https://www.questionpro.com/$URL/ permanent;
 }" >> /home/shubhamchavan/scripts/redirect.txt
 
-if [[ `nginx -t | grep -w "successful"` ]]
+sudo nginx -t
+if [[ $? == 0 ]];
 then
-	if [[ `git diff | grep -w "success"` ]]
+	echo "Success"
+	echo "Restarting the nginx services"
+	sleep 1
+	if [[ `git diff | grep -w "diff --git"` ]]
 	then
 		echo "Restarting nginx service"
 		#systemctl restart nginx
