@@ -1,0 +1,69 @@
+location ~* /index.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/survey-ana/ permanent;
+}
+location ~* /index.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/surevay-ana2/ permanent;
+}
+location ~* /index3.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/survey-ana4/ permanent;
+}
+location ~* /index5.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/survey-ana456/ permanent;
+}
+location ~* /index12 {
+        			rewrite ^/research-edition-software-license.html https://www.questionpro.com/lock-one/ permanent;
+				}
+location ~* /index10.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/one-true/ permanent;
+}
+location ~* /index1234.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/loc-one/ permanent;
+}
+location ~* /index101.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/one-loc/ permanent;
+}
+location ~* /index.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/questionpro-index1/ permanent;
+}
+location ~* //location.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/hello-321/ permanent;
+}
+location ~* /index2345.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/lock-on/ permanent;
+}
+location ~* /index3345.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/survey-ana-one/ permanent;
+}
+location ~* /nord.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/oneplus-flag/ permanent;
+}
+location ~* /tour/survey-logic.html {
+        rewrite ^/research-edition-software-license.html https://www.questionpro.com/survey-software/survey-logic.html/ permanent;
+}
+location ~* /source-one.html {
+        rewrite ^/source-one.html https://www.questionpro.com/source-html/ permanent;
+}
+location ~* /shubham {
+        rewrite ^/shubham https://www.questionpro.com/chavan/ permanent;
+}
+location ~* /apex {
+        rewrite ^/apex https://www.questionpro.com/legend/ permanent;
+}
+location ~* /google {
+        rewrite ^/google https://www.questionpro.com/pixel/ permanent;
+}
+location ~* /apple {
+        rewrite ^/apple https://www.questionpro.com/iphone/ permanent;
+}
+location ~* /dragon {
+        rewrite ^/dragon https://www.questionpro.com/ball/ permanent;
+}
+location ~* /what {
+        rewrite ^/what https://www.questionpro.com/if/ permanent;
+}
+location ~* /nginx {
+        rewrite ^/nginx https://www.questionpro.com/redirect/ permanent;
+}
+location ~* /exit {
+        rewrite ^/exit https://www.questionpro.com/code/ permanent;
+}
